@@ -8,6 +8,9 @@
 		<body>
 			<div id='player'>
 				<img src='img/cover.png' alt='cover' id='cover'>
+				<div id='now'>
+				<p>Now Playing: <span></span></p>
+				</div>
 				<audio id="music" ></audio>
 				<div id='playlist'>
 						<button type="button" alt='0' class='song'>Can't Take My Eyes Off You</button><br>
@@ -21,7 +24,12 @@
 				<img src='img/stop.jpg' alt='stop' id='stop'>
 				<img src='img/next.png' alt='next' id='next'>
 				<img src='img/shuffle.jpg' alt='shuffle' id='shuffle'>
+				</div>
+				<div id='up'>
+				Song Name:<input type='text' id='songName'/>
+				Artist:<input type='text' id='songArtist'/>
 				<input type="file" id="input"/>
+				<button id = 'submit'>submit</button>
 				</div>
 			</div>
 		</body>
